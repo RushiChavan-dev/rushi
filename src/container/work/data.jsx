@@ -22,7 +22,13 @@ import { images } from '../../constant/index'
                                   
 ] },
 
-{ title: "Blockchain", content: [{title: "ERC 20 Token", text: "This is a smart contract based on ERC 20 token", imgURL: images.about03, github: "https://github.com/RushiChavan-dev/BCDV1010_Lab_9-Rushikesh-Chavan-ERC20", tag: "ERC 20 Tokens"}
+{ title: "Blockchain", content: [
+  
+  {title: "ERC 20 Token", text: "This is a smart contract based on ERC 20 token", imgURL: images.about03, github: "https://github.com/RushiChavan-dev/BCDV1010_Lab_9-Rushikesh-Chavan-ERC20", tag: "ERC 20 Tokens"},
+  {title: "Blockchain Broadcast Cardano", text: "Transform your books into tradable NFTs and unlock the potential to buy, sell, and resell in the digital marketplace", imgURL: images.about05, github: "https://github.com/RushiChavan-dev/Blockchain-Broadcast-Cardano", tag: "Blockchain Broadcast Cardano"},
+  {title: "Hyperledger Sample", text: "Hyperledger sample project", imgURL: images.about03, github: "https://github.com/RushiChavan-dev/HyperLedgerSampler", tag: "Hyperledger Sample"},
+  {title: "Hyperledger Forex", text: "Cross-platform payment using hyperledger", imgURL: images.about06, github: "https://github.com/RushiChavan-dev/Hyperledger-forex-crossplatform", tag: "Hyperledger Corss-Platform Payment"},
+
 
                                   
 ] }
