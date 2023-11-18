@@ -27,9 +27,9 @@ function Header() {
                 </div>
             </div>
             <div className='tag-cmp app__flex'>
-                <p className='p-text tag-txt'>Full Stack</p>
+                <p className='p-text tag-txt'>Software</p>
                 
-                <p className='p-text tag-txt'>Web Developer</p>
+                <p className='p-text tag-txt'>Engineer</p>
             </div>
 
         </motion.div>
