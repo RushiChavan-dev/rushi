@@ -27,7 +27,7 @@ const data = [
       },
       {
         title: "Weather APP MVI",
-        text: "APP with MVI",
+        text: "APP with MVI 2nd",
         imgURL: images.about06,
         github: "https://github.com/RushiChavan-dev/Weather-App-MVI",
         tag: "MVI weather app",
