@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rushi/static/css/main.d28426c9.css",
-    "main.js": "/rushi/static/js/main.dfa74629.js",
+    "main.js": "/rushi/static/js/main.a7753a35.js",
     "static/media/about05.png": "/rushi/static/media/about05.4a91034412c9d84b1ffb.png",
     "static/media/MERN.png": "/rushi/static/media/MERN.6a0cc527b0eeb150bcc2.png",
     "static/media/about04.png": "/rushi/static/media/about04.fa7b3a72ed32b0e25bfb.png",
@@ -10,6 +10,7 @@
     "static/media/profile.png": "/rushi/static/media/profile.e7674a5054f621072b18.png",
     "static/media/bgIMG.png": "/rushi/static/media/bgIMG.c39101e520e2997fc6d4.png",
     "static/media/bgWhite.png": "/rushi/static/media/bgWhite.79658cadae50b3b16ee5.png",
+    "static/media/objectdetection.png": "/rushi/static/media/objectdetection.a07f3335b63c36d44f3d.png",
     "static/media/about03.png": "/rushi/static/media/about03.c26c2547bb1a423cf283.png",
     "static/media/about06.png": "/rushi/static/media/about06.2fed636b5c960d4569e5.png",
     "static/media/spotify.png": "/rushi/static/media/spotify.2b5e9be1eb1ab501e7cd.png",
@@ -21,6 +22,7 @@
     "static/media/bolt.png": "/rushi/static/media/bolt.64e7d9d30ece478ef3a0.png",
     "static/media/redux.png": "/rushi/static/media/redux.c9be37e0fece29c624b0.png",
     "static/media/sass.png": "/rushi/static/media/sass.36e863bfbcb25c109d00.png",
+    "static/media/webrtc.jpg": "/rushi/static/media/webrtc.4e90e22bf2e7b6014c40.jpg",
     "static/media/node.png": "/rushi/static/media/node.8683d89cf78ffae3d1f7.png",
     "static/media/cpp.png": "/rushi/static/media/cpp.9002a804bbfa0354d0b8.png",
     "static/media/graphql.png": "/rushi/static/media/graphql.0372057049181c5de51a.png",
@@ -34,10 +36,10 @@
     "index.html": "/rushi/index.html",
     "static/media/circle.svg": "/rushi/static/media/circle.ae5f84b3853b9e34aa83cf8dada715c5.svg",
     "main.d28426c9.css.map": "/rushi/static/css/main.d28426c9.css.map",
-    "main.dfa74629.js.map": "/rushi/static/js/main.dfa74629.js.map"
+    "main.a7753a35.js.map": "/rushi/static/js/main.a7753a35.js.map"
   },
   "entrypoints": [
     "static/css/main.d28426c9.css",
-    "static/js/main.dfa74629.js"
+    "static/js/main.a7753a35.js"
   ]
 }
