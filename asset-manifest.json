@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rushi/static/css/main.d28426c9.css",
-    "main.js": "/rushi/static/js/main.b30706b4.js",
+    "main.js": "/rushi/static/js/main.dfa74629.js",
     "static/media/about05.png": "/rushi/static/media/about05.4a91034412c9d84b1ffb.png",
     "static/media/MERN.png": "/rushi/static/media/MERN.6a0cc527b0eeb150bcc2.png",
     "static/media/about04.png": "/rushi/static/media/about04.fa7b3a72ed32b0e25bfb.png",
@@ -32,12 +32,12 @@
     "static/media/git.png": "/rushi/static/media/git.a54d3fa44e02f2f61e69.png",
     "static/media/skype.png": "/rushi/static/media/skype.c8d7ee175da5b4c8a8ab.png",
     "index.html": "/rushi/index.html",
-    "static/media/circle.svg": "/rushi/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
+    "static/media/circle.svg": "/rushi/static/media/circle.ae5f84b3853b9e34aa83cf8dada715c5.svg",
     "main.d28426c9.css.map": "/rushi/static/css/main.d28426c9.css.map",
-    "main.b30706b4.js.map": "/rushi/static/js/main.b30706b4.js.map"
+    "main.dfa74629.js.map": "/rushi/static/js/main.dfa74629.js.map"
   },
   "entrypoints": [
     "static/css/main.d28426c9.css",
-    "static/js/main.b30706b4.js"
+    "static/js/main.dfa74629.js"
   ]
 }
