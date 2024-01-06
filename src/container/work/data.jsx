@@ -19,6 +19,13 @@ const data = [
         tag: "Weather APP",
       },
       {
+        title: "Android Object Detection ",
+        text: "Detech Object from Camera",
+        imgURL: images.objectdetection,
+        github: "https://github.com/RushiChavan-dev/Android-Object-Detection",
+        tag: "Object Detection",
+      },
+      {
         title: "Splash Screen",
         text: "Example of Splash Screen",
         imgURL: images.about03,
@@ -31,6 +38,13 @@ const data = [
         imgURL: images.about06,
         github: "https://github.com/RushiChavan-dev/Weather-App-MVI",
         tag: "MVI weather app",
+      },
+      {
+        title: "WebRtc Demo",
+        text: "Web RTC Demo",
+        imgURL: images.webrtc,
+        github: "https://github.com/RushiChavan-dev/WebRtc-Demo",
+        tag: "Web RTC Demo",
       },
     ],
   },
