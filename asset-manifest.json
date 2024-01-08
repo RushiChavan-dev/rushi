@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rushi/static/css/main.d28426c9.css",
-    "main.js": "/rushi/static/js/main.a7753a35.js",
+    "main.js": "/rushi/static/js/main.dd620bc5.js",
     "static/media/about05.png": "/rushi/static/media/about05.4a91034412c9d84b1ffb.png",
     "static/media/MERN.png": "/rushi/static/media/MERN.6a0cc527b0eeb150bcc2.png",
     "static/media/about04.png": "/rushi/static/media/about04.fa7b3a72ed32b0e25bfb.png",
@@ -11,10 +11,16 @@
     "static/media/bgIMG.png": "/rushi/static/media/bgIMG.c39101e520e2997fc6d4.png",
     "static/media/bgWhite.png": "/rushi/static/media/bgWhite.79658cadae50b3b16ee5.png",
     "static/media/objectdetection.png": "/rushi/static/media/objectdetection.a07f3335b63c36d44f3d.png",
+    "static/media/abouthotel.jpg": "/rushi/static/media/abouthotel.c3175328416c5da641b4.jpg",
+    "static/media/aboutweather.png": "/rushi/static/media/aboutweather.f099cc9dc9ec37fc6130.png",
     "static/media/about03.png": "/rushi/static/media/about03.c26c2547bb1a423cf283.png",
     "static/media/about06.png": "/rushi/static/media/about06.2fed636b5c960d4569e5.png",
+    "static/media/aboutsportsbet.png": "/rushi/static/media/aboutsportsbet.6dcd621f63071c5a9037.png",
     "static/media/spotify.png": "/rushi/static/media/spotify.2b5e9be1eb1ab501e7cd.png",
+    "static/media/aboutsearch.jpg": "/rushi/static/media/aboutsearch.70089fd4342a5e338c25.jpg",
     "static/media/nb.png": "/rushi/static/media/nb.98f3253e32cc67a4cb5e.png",
+    "static/media/aboutrecyclerview.jpg": "/rushi/static/media/aboutrecyclerview.9fcb0f637b92a083bb1d.jpg",
+    "static/media/aboutexo.png": "/rushi/static/media/aboutexo.8a35fc13eb9caf64407b.png",
     "static/media/asus.png": "/rushi/static/media/asus.514bc34955008a92e09f.png",
     "static/media/logo_new.png": "/rushi/static/media/logo_new.2343d5fd01a08b8d2d33.png",
     "static/media/adidas.png": "/rushi/static/media/adidas.83df8153294f9137d308.png",
@@ -36,10 +42,10 @@
     "index.html": "/rushi/index.html",
     "static/media/circle.svg": "/rushi/static/media/circle.ae5f84b3853b9e34aa83cf8dada715c5.svg",
     "main.d28426c9.css.map": "/rushi/static/css/main.d28426c9.css.map",
-    "main.a7753a35.js.map": "/rushi/static/js/main.a7753a35.js.map"
+    "main.dd620bc5.js.map": "/rushi/static/js/main.dd620bc5.js.map"
   },
   "entrypoints": [
     "static/css/main.d28426c9.css",
-    "static/js/main.a7753a35.js"
+    "static/js/main.dd620bc5.js"
   ]
 }
