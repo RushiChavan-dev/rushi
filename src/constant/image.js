@@ -27,6 +27,12 @@ import about05 from "../assets/about05.png";
 import about06 from "../assets/about06.png";
 import objectdetection from "../assets/objectdetection.png";
 import webrtc from "../assets/webrtc.jpg";
+import aboutrecyclerview from "../assets/aboutrecyclerview.jpg";
+import aboutexo from "../assets/aboutexo.png";
+import aboutweather from "../assets/aboutweather.png";
+import aboutsearch from "../assets/aboutsearch.jpg";
+import abouthotel from "../assets/abouthotel.jpg";
+import aboutsportsbet from "../assets/aboutsportsbet.png";
 
 import profile from "../assets/profile.png";
 import circle from "../assets/circle.svg";
@@ -68,6 +74,12 @@ const images = {
   about05,
   about06,
   objectdetection,
+  aboutrecyclerview,
+  aboutweather,
+  aboutsearch,
+  aboutsportsbet,
+  abouthotel,
+  aboutexo,
   webrtc,
   profile,
   circle,

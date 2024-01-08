@@ -5,16 +5,31 @@ const data = [
     title: "Android ",
     content: [
       {
-        title: "Search App",
-        text: "This is a Search example in Compose UI",
-        imgURL: images.about03,
-        github: "https://github.com/RushiChavan-dev/AppSearchGuide",
-        tag: "Search Bar",
+        title: "Sports Betting App",
+        text: "This is a Betting application for sports",
+        imgURL: images.aboutsportsbet,
+        github: "https://github.com/RushiChavan-dev/Betting-App-Kotlin",
+        tag: "Sports Betting Application",
       },
+      {
+        title: "Live Stream Video Player",
+        text: "This is the live stream video player which can play video live - Exo Player Compose UI",
+        imgURL: images.aboutexo,
+        github: "https://github.com/RushiChavan-dev/LiveStreamAndroidAPP",
+        tag: "Live Stream APP",
+      },
+      {
+        title: "Hotel booking App",
+        text: "This is a Hotel Booking application",
+        imgURL: images.abouthotel,
+        github: "https://github.com/RushiChavan-dev/HotelApp",
+        tag: "Hotel Booking and search",
+      },
+
       {
         title: "Weather App ",
         text: "Android Weather App ",
-        imgURL: images.about05,
+        imgURL: images.aboutweather,
         github: "https://github.com/RushiChavan-dev/WeatherAPP",
         tag: "Weather APP",
       },
@@ -32,12 +47,27 @@ const data = [
         github: "https://github.com/RushiChavan-dev/AnimatedSplash",
         tag: "Splash",
       },
+
+      {
+        title: "Jet Pack Compose Lazy Col|Recyclerview view",
+        text: "Example of Lazy Col - Recyclerview",
+        imgURL: images.aboutrecyclerview,
+        github: "https://github.com/RushiChavan-dev/JetpackRecyclerview",
+        tag: "Recycler View , Lazy Col",
+      },
       {
         title: "Weather APP MVI",
         text: "APP with MVI 2nd",
         imgURL: images.about06,
         github: "https://github.com/RushiChavan-dev/Weather-App-MVI",
         tag: "MVI weather app",
+      },
+      {
+        title: "Search App",
+        text: "This is a Search example in Compose UI",
+        imgURL: images.aboutsearch,
+        github: "https://github.com/RushiChavan-dev/AppSearchGuide",
+        tag: "Search Bar",
       },
       {
         title: "WebRtc Demo",
