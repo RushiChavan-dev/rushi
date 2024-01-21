@@ -1,11 +1,13 @@
 {
   "files": {
     "main.css": "/rushi/static/css/main.d28426c9.css",
-    "main.js": "/rushi/static/js/main.dd620bc5.js",
+    "main.js": "/rushi/static/js/main.580fc9c8.js",
     "static/media/about05.png": "/rushi/static/media/about05.4a91034412c9d84b1ffb.png",
+    "static/media/profile_pic.png": "/rushi/static/media/profile_pic.f0a6179bd61672252838.png",
     "static/media/MERN.png": "/rushi/static/media/MERN.6a0cc527b0eeb150bcc2.png",
     "static/media/about04.png": "/rushi/static/media/about04.fa7b3a72ed32b0e25bfb.png",
     "static/media/about02.png": "/rushi/static/media/about02.7a3df03410ee756268ec.png",
+    "static/media/profile_three.png": "/rushi/static/media/profile_three.cb1e0b86e5c32ab257c2.png",
     "static/media/about01.png": "/rushi/static/media/about01.080509de05322b7aafda.png",
     "static/media/profile.png": "/rushi/static/media/profile.e7674a5054f621072b18.png",
     "static/media/bgIMG.png": "/rushi/static/media/bgIMG.c39101e520e2997fc6d4.png",
@@ -18,8 +20,11 @@
     "static/media/aboutsportsbet.png": "/rushi/static/media/aboutsportsbet.6dcd621f63071c5a9037.png",
     "static/media/spotify.png": "/rushi/static/media/spotify.2b5e9be1eb1ab501e7cd.png",
     "static/media/aboutsearch.jpg": "/rushi/static/media/aboutsearch.70089fd4342a5e338c25.jpg",
+    "static/media/mobile.png": "/rushi/static/media/mobile.c612a6e195b5b003a21e.png",
     "static/media/nb.png": "/rushi/static/media/nb.98f3253e32cc67a4cb5e.png",
+    "static/media/profile_two.jpg": "/rushi/static/media/profile_two.17be6f90bccdcbca93c0.jpg",
     "static/media/aboutrecyclerview.jpg": "/rushi/static/media/aboutrecyclerview.9fcb0f637b92a083bb1d.jpg",
+    "static/media/email.png": "/rushi/static/media/email.49ba1cf43bd057a795c2.png",
     "static/media/aboutexo.png": "/rushi/static/media/aboutexo.8a35fc13eb9caf64407b.png",
     "static/media/asus.png": "/rushi/static/media/asus.514bc34955008a92e09f.png",
     "static/media/logo_new.png": "/rushi/static/media/logo_new.2343d5fd01a08b8d2d33.png",
@@ -33,8 +38,6 @@
     "static/media/cpp.png": "/rushi/static/media/cpp.9002a804bbfa0354d0b8.png",
     "static/media/graphql.png": "/rushi/static/media/graphql.0372057049181c5de51a.png",
     "static/media/amazon.png": "/rushi/static/media/amazon.0a8be1f53138b5c52456.png",
-    "static/media/mobile.png": "/rushi/static/media/mobile.145d9ce0157a56f8fcd8.png",
-    "static/media/email.png": "/rushi/static/media/email.37b9e890eea501421fbf.png",
     "static/media/figma.png": "/rushi/static/media/figma.152e55329b6f1915967e.png",
     "static/media/css.png": "/rushi/static/media/css.5721a3928fe43de6baf8.png",
     "static/media/git.png": "/rushi/static/media/git.a54d3fa44e02f2f61e69.png",
@@ -42,10 +45,10 @@
     "index.html": "/rushi/index.html",
     "static/media/circle.svg": "/rushi/static/media/circle.ae5f84b3853b9e34aa83cf8dada715c5.svg",
     "main.d28426c9.css.map": "/rushi/static/css/main.d28426c9.css.map",
-    "main.dd620bc5.js.map": "/rushi/static/js/main.dd620bc5.js.map"
+    "main.580fc9c8.js.map": "/rushi/static/js/main.580fc9c8.js.map"
   },
   "entrypoints": [
     "static/css/main.d28426c9.css",
-    "static/js/main.dd620bc5.js"
+    "static/js/main.580fc9c8.js"
   ]
 }
