@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rushi/static/css/main.d28426c9.css",
-    "main.js": "/rushi/static/js/main.580fc9c8.js",
+    "main.js": "/rushi/static/js/main.1429e38f.js",
     "static/media/about05.png": "/rushi/static/media/about05.4a91034412c9d84b1ffb.png",
     "static/media/profile_pic.png": "/rushi/static/media/profile_pic.f0a6179bd61672252838.png",
     "static/media/MERN.png": "/rushi/static/media/MERN.6a0cc527b0eeb150bcc2.png",
@@ -36,6 +36,7 @@
     "static/media/webrtc.jpg": "/rushi/static/media/webrtc.4e90e22bf2e7b6014c40.jpg",
     "static/media/node.png": "/rushi/static/media/node.8683d89cf78ffae3d1f7.png",
     "static/media/cpp.png": "/rushi/static/media/cpp.9002a804bbfa0354d0b8.png",
+    "static/media/aboutroom.jpg": "/rushi/static/media/aboutroom.7f4d0a6726d508e795c3.jpg",
     "static/media/graphql.png": "/rushi/static/media/graphql.0372057049181c5de51a.png",
     "static/media/amazon.png": "/rushi/static/media/amazon.0a8be1f53138b5c52456.png",
     "static/media/figma.png": "/rushi/static/media/figma.152e55329b6f1915967e.png",
@@ -45,10 +46,10 @@
     "index.html": "/rushi/index.html",
     "static/media/circle.svg": "/rushi/static/media/circle.ae5f84b3853b9e34aa83cf8dada715c5.svg",
     "main.d28426c9.css.map": "/rushi/static/css/main.d28426c9.css.map",
-    "main.580fc9c8.js.map": "/rushi/static/js/main.580fc9c8.js.map"
+    "main.1429e38f.js.map": "/rushi/static/js/main.1429e38f.js.map"
   },
   "entrypoints": [
     "static/css/main.d28426c9.css",
-    "static/js/main.580fc9c8.js"
+    "static/js/main.1429e38f.js"
   ]
 }
