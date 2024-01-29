@@ -1,84 +1,124 @@
-import React, { useState, useRef } from 'react'
-import "./contact.css"
-import "../../app.css"
-import AppWarp from '../../Higher_order_component/AppWapper'
-import { motion } from 'framer-motion'
-import { images } from '../../constant'
-import emailjs from '@emailjs/browser';
+import React, { useState, useRef } from "react";
+import "./contact.css";
+import "../../app.css";
+import AppWarp from "../../Higher_order_component/AppWapper";
+import { motion } from "framer-motion";
+import { images } from "../../constant";
+import emailjs from "@emailjs/browser";
 function Contact() {
-    const form = useRef();
-    const [formData, setFormData] = useState({ user_name: '', user_email: '', message: '' })
-    const { user_name, user_email, message } = formData;
-    const [isFormSubmitted, setIsFormSubmitted] = useState(false)
-    const [loading, setLoading] = useState(false)
-    const handleChangeInput = (e) => {
-        setFormData({...formData, [e.target.name]: e.target.value})
-    }
+  const form = useRef();
+  const [formData, setFormData] = useState({
+    user_name: "",
+    user_email: "",
+    message: "",
+  });
+  const { user_name, user_email, message } = formData;
+  const [isFormSubmitted, setIsFormSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const handleChangeInput = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        setLoading(true);
-        console.log(formData)
-        emailjs.sendForm('service_buu48ok', 'template_1px5gln', form.current, 'SqoGyeZGsT8AZ8T3u')
-      .then((result) => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+    console.log(formData);
+    emailjs
+      .sendForm(
+        "service_buu48ok",
+        "template_1px5gln",
+        form.current,
+        "SqoGyeZGsT8AZ8T3u"
+      )
+      .then(
+        (result) => {
           console.log(result.text);
-          setIsFormSubmitted(true); 
-      }, (error) => {
+          setIsFormSubmitted(true);
+        },
+        (error) => {
           console.log(error.text);
-      });
-        
-      };
-    return (
-        <motion.div className='app__container app__flex' id='contact'
-            whileInView={{ y: [200, 0], opacity: [0, 1] }}
-            transition={{ duration: 1 }}
+        }
+      );
+  };
+  return (
+    <motion.div
+      className="app__container app__flex"
+      id="contact"
+      whileInView={{ y: [200, 0], opacity: [0, 1] }}
+      transition={{ duration: 1 }}
+    >
+      <h2 className="head-text">Contact Details</h2>
+      <div className="app__contact-details">
+        <a
+          href="mailto: rushi.chavan33@gmail.com"
+          className="app__contact-email app__flex"
         >
-            <h2 className='head-text'>Contact Details</h2>
-            <div className='app__contact-details'>
-                <a href="mailto: rushi.chavan33@gmail.com" className="app__contact-email app__flex">
-                    <img src={images.email} alt="email logo" />
-                    <span>rushi.chavan33@gmail.com</span>
-                </a>
-                <a href="mailto: rushikesh.chavan@georgebrown.ca" className="app__contact-email app__flex">
-                    <img src={images.email} alt="email logo" />
-                    <span>rushikesh.chavan@georgebrown.ca</span>
-                </a>
-                <a href="tel:+16478185453" className="app__contact-phone app__flex">
-                    <img src={images.mobile} alt="phone logo" />
-                    <span>+16478185453</span>
-                </a>
+          <img src={images.email} alt="email logo" />
+          <span>rushi.chavan33@gmail.com</span>
+        </a>
+        {/* <a
+          href="mailto: rushikesh.chavan@georgebrown.ca"
+          className="app__contact-email app__flex"
+        >
+          <img src={images.email} alt="email logo" />
+          <span>rushikesh.chavan@georgebrown.ca</span>
+        </a> */}
+        <a href="tel:+16478185453" className="app__contact-phone app__flex">
+          <img src={images.mobile} alt="phone logo" />
+          <span>+1 647 818 5453</span>
+        </a>
+      </div>
+      <div className="app__form">
+        {!isFormSubmitted ? (
+          <form ref={form} onSubmit={handleSubmit}>
+            <div className="app__flex">
+              <input
+                required
+                className="p-text"
+                type="text"
+                placeholder="Your Name"
+                name="user_name"
+                value={user_name}
+                onChange={handleChangeInput}
+              />
             </div>
-            <div className='app__form'>
-                {!isFormSubmitted ?
-                    <form ref={form} onSubmit={handleSubmit}>
-                        <div className='app__flex' >
-                            <input required className="p-text" type="text" placeholder="Your Name" name="user_name" value={user_name} onChange={handleChangeInput} />
-                        </div>
-                        <div className='app__flex' >
-                            <input required className="p-text" type="text" placeholder="Your Email" name="user_email" value={user_email} onChange={handleChangeInput} />
-                        </div>
-                        <div className='app__flex'>
-                            <textarea
-                            required
-                                className="p-text textArea"
-                                placeholder="Your Message"
-                                value={message}
-                                name="message"
-                                onChange={handleChangeInput}
-                            />
-                        </div>
-                        <button type="submit" className="submit-btn p-text app__flex" onClick={handleSubmit}>{!loading ? 'Send Message' : 'Sending...'}</button>
-                        </form> : (
-                        <div>
-                            <h3 className="head-text">
-                                Thank you for getting in touch!
-                            </h3>
-                        </div>
-                    )
-                }
+            <div className="app__flex">
+              <input
+                required
+                className="p-text"
+                type="text"
+                placeholder="Your Email"
+                name="user_email"
+                value={user_email}
+                onChange={handleChangeInput}
+              />
             </div>
-        </motion.div>
-    )
+            <div className="app__flex">
+              <textarea
+                required
+                className="p-text textArea"
+                placeholder="Your Message"
+                value={message}
+                name="message"
+                onChange={handleChangeInput}
+              />
+            </div>
+            <button
+              type="submit"
+              className="submit-btn p-text app__flex"
+              onClick={handleSubmit}
+            >
+              {!loading ? "Send Message" : "Sending..."}
+            </button>
+          </form>
+        ) : (
+          <div>
+            <h3 className="head-text">Thank you for getting in touch!</h3>
+          </div>
+        )}
+      </div>
+    </motion.div>
+  );
 }
 
-export default AppWarp(Contact, "contact")
+export default AppWarp(Contact, "contact");

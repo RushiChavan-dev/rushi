@@ -34,6 +34,13 @@ const data = [
         tag: "Weather APP",
       },
       {
+        title: "Keep Notes ",
+        text: "Keep Notes using latest compose UI and Dagger",
+        imgURL: images.aboutroom,
+        github: "https://github.com/RushiChavan-dev/Room-MVI-Dagger-Compose-UI",
+        tag: "Keep Notes",
+      },
+      {
         title: "Android Object Detection ",
         text: "Detech Object from Camera",
         imgURL: images.objectdetection,

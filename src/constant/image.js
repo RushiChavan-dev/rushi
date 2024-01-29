@@ -33,8 +33,12 @@ import aboutweather from "../assets/aboutweather.png";
 import aboutsearch from "../assets/aboutsearch.jpg";
 import abouthotel from "../assets/abouthotel.jpg";
 import aboutsportsbet from "../assets/aboutsportsbet.png";
+import aboutroom from "../assets/aboutroom.jpg";
 
 import profile from "../assets/profile.png";
+import profile_two from "../assets/profile_two.jpg";
+import profile_three from "../assets/profile_three.png";
+import profile_pic from "../assets/profile_pic.png";
 import circle from "../assets/circle.svg";
 import logo from "../assets/logo.png";
 
@@ -79,9 +83,13 @@ const images = {
   aboutsearch,
   aboutsportsbet,
   abouthotel,
+  aboutroom,
   aboutexo,
   webrtc,
   profile,
+  profile_two,
+  profile_three,
+  profile_pic,
   circle,
   logo,
   adidas,

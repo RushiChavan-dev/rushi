@@ -4,39 +4,38 @@ import "../../app.css";
 import { images } from "../../constant";
 import { motion } from "framer-motion";
 // import { SocialMedia } from "../../components";
-import AppWrap from '../../Higher_order_component/AppWapper'
+import AppWrap from "../../Higher_order_component/AppWapper";
 const Abouts = [
   {
     title: "Who Am I?",
     description:
-      "Hi, I'm Rushi Chavan. I am a passionate designer and developer based out of Toronto, Ontario. I love creating appealing web apps that are also responsive, accessible, and logically designed to provide an optimal user experience. Aside from designing and coding, I offer a friendly, honest, respectful, creative personality and I am always looking to learn new technologies and improve with what I already know.",
+      "Specialized Android and React Native developer with five years of hands-on experience, blending technical expertise with a passion for research and architecture. Proficient in crafting seamless user experiences and optimizing backend systems, I thrive on solving complex challenges and contributing innovative ideas. Effective communication, proactive problem-solving, and a commitment to continuous improvement define my professional approach. As a team player, I bring a positive attitude and align my skills with the values of the companies I engage with. I am not just a developer; I am a dynamic professional ready to drive success in your innovative projects.",
     imgURL: images.about04,
   },
   {
-    title: "Front-End Developer",
+    title: "What Are My Achievements?",
     description:
-      "I am a front-end developer with a passion for building beautiful and functional web applications. I love to create components and animations as it allows to engage user and it also good for user experience. I am using FramerMotion, material-ui for animation react component.",
+      "In the past year, I achieved a significant milestone by developing a Web3 E-commerce Application from scratch on Cardano Blockchain, integrating backend, frontend, and web3 wallet, all within an impressive timeframe of just 4 days. This accomplishment not only secured 1st place in academics but also demonstrated my ability to excel in rapid development. Additionally, I swiftly resolved a critical bug in a challenging Android project within 24 hours, contributing to a $3 million funding success. I played a key role in developing the UK's most secure HR Management app, authored a logistics-focused white paper on Algorand, and contributed to India's NPCI SDK for a secure payment app. Notable optimizations include a QR code scanner processing 80% faster and PDF rendering 60% faster, showcasing my versatility in diverse tech projects, from accelerated development to impactful optimizations.",
     imgURL: images.about01,
   },
+  // {
+  //   title: "Open Source Developer",
+  //   description:
+  //     "Contributing to Open Source Project is feel like actually contributing to the community. This help me to Improve Coding Skills, Gain Experience working with real software, and to develop a team work skill.",
+  //   imgURL: images.about02,
+  // },
   {
-    title: "Open Source Developer",
+    title: "How Do I Solve Problems?",
     description:
-      "Contributing to Open Source Project is feel like actually contributing to the community. This help me to Improve Coding Skills, Gain Experience working with real software, and to develop a team work skill.",
-    imgURL: images.about02,
-  },
-  {
-    title: "Full Stack Developer",
-    description:
-      "I love to work on end to end on an application. My most used stack is MERN and I am good at Javascript. Working on Full stack, allow me to explore different technologies and packages that out there in market and how those packages can be used",
+      "In software development, my problem-solving approach is pragmatic and systematic. I start by breaking down the problem and conducting a codebase analysis. I plan with a focus on algorithms, data structures, and architecture, implementing clean and efficient code. Rigorous testing, debugging, and profiling ensure optimal performance. Collaboration and adaptability are key, with code reviews enhancing quality. I prioritize continuous learning to stay updated on technologies. Effective communication and documentation support transparency. From deployment to maintenance, my commitment ensures sustained excellence throughout the software's lifecycle.",
     imgURL: images.about03,
   },
   {
-    title: "Python Developer",
+    title: "What's Next on My Map?",
     description:
-      "I am using python to make software Applications and also use its library Flask for Web development. Python is very powerful and popular programming language and i found that working in python allow us to develop complex web applications with less and simple code.",
+      "Rooted in a commitment to innovation and leadership, I aim to ascend to pivotal roles, influencing teams toward cutting-edge solutions in Android and React Native development. Fostering collaboration and excellence, I'll drive projects that redefine success in the software corporate world. Committed to continuous learning, I'll stay at the forefront with relevant certifications. In five years, I envision a leadership role, driving transformative projects, mentoring, and shaping industry direction. My plans are intertwined with propelling the software corporate world forward through visionary leadership and technological excellence in the mobile development space.",
     imgURL: images.about04,
   },
-  
 ];
 function About() {
   return (
@@ -64,16 +63,21 @@ function About() {
             <h2 className="bold-text" style={{ marginTop: 20 }}>
               {about.title}
             </h2>
-            <p className="p-text" style={{ marginTop: 10 }}>
+            <p
+              className="p-text"
+              style={{
+                marginTop: 10,
+                textAlign: "justify",
+                textJustify: "inter-word",
+              }}
+            >
               {about.description}
             </p>
           </motion.div>
         ))}
       </div>
-      
     </motion.div>
   );
 }
 
 export default AppWrap(About, "about");
-
